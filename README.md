@@ -10,7 +10,7 @@ Follow the steps below to set up and run programs in your own Codespace.
 ## Step 1. Open the Repository
 
 Go to:
-[https://github.com/vsdip/vsd-riscv](https://github.com/vsdip/vsd-riscv)
+[https://github.com/vsdip/vsd-riscv2](https://github.com/vsdip/vsd-riscv2)
 
 ## Step 2. Create a Codespace
 
