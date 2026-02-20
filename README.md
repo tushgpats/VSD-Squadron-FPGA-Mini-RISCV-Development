@@ -199,6 +199,20 @@ This opens `sum1ton.c` in **gedit** on the noVNC desktop.
 <img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/1d260ce3-e357-45a3-8deb-f80cfe46ac26" />
 
 ---
-
-
+<br>
+Where is the RISC-V program located in the vsd-riscv2 repository?
+<br>
+In the samples folder of the repository
+<br>
+How is the program compiled and loaded into memory?
+<br>
+The Program is Compiled using riscv64-unknown-elf-gcc. It is then run with spike pk <program>.elf, where pk loads the ELF into Spike’s simulated memory.
+<br>   
+How does the RISC-V core access memory and memory-mapped IO?
+<br>
+The RISC-V core uses standard load  and store instructions to access memory. In this case memory accesses are handled by the simulator (spike) and proxy kernel (pk) rather than real FPGA hardware.
+<br> 
+Where would a new FPGA IP block logically integrate in this system?
+<br>
+It would Logically Integrate as memory-mapped peripheral with its own address on the system bus
 
