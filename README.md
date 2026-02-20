@@ -71,13 +71,22 @@ Expected output:
 ```text
 Sum from 1 to 9 is 45
 ```
+<br>
+
+<img width="943" height="297" alt="Screenshot 2026-02-20 191248" src="https://github.com/user-attachments/assets/b6517864-dbb7-48e1-9c37-db6194da149e" />
+
+
 
 ---
 
 ## Step 5. Next Steps
 
 * You can edit and run your own C programs.
-* You can also try Verilog programs using `iverilog`.
+
+
+<br>
+<img width="886" height="302" alt="Screenshot 2026-02-20 191918" src="https://github.com/user-attachments/assets/ef6aeda0-2015-46e9-a6bf-36308b09f3d7" />
+
 
 ---
 
@@ -95,15 +104,19 @@ The following steps show how to use a full Linux desktop inside your Codespace a
 
 3. Click the **Forwarded Address** link.
 
-   ![noVNC port](images/2.png)
+<img width="983" height="290" alt="Screenshot 2026-02-20 191500" src="https://github.com/user-attachments/assets/d25f44bc-4c16-4c9a-bdc6-ddc38288baf2" />
+
+
 
 4. A new browser tab opens with a directory listing. Click **`vnc_lite.html`**.
 
-   ![noVNC directory listing](images/3.png)
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/769fe34c-436a-42ea-b9a3-1b8bfaec8637" />
 
+ 
 5. The Linux desktop appears in your browser.
 
-   ![Desktop view](images/4.png)
+<img width="1920" height="1080" alt="Screenshot 2026-02-20 191347" src="https://github.com/user-attachments/assets/f66342a0-a38d-4153-a354-0e5a8eab44b5" />
+
 
 ---
 
