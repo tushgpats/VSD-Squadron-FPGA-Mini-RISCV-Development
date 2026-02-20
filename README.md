@@ -12,12 +12,24 @@ Go to:
 
 ---
 
+And Fork it to your Github <br></br>
+
+<br>
+<img width="1920" height="1008" alt="Screenshot 2026-02-20 184053" src="https://github.com/user-attachments/assets/f78afbfc-062d-4e3e-874d-3c9690ac0e7f" />
+<br>
+
 ## Step 2. Create a Codespace
 
 1. Log in with your GitHub account.
 2. Click the green **Code** button.
 3. Select **Open with Codespaces** → **New codespace**.
 4. Wait while the environment builds. (First time may take 10–15 minutes.)
+
+
+<img width="1920" height="1008" alt="Screenshot 2026-02-20 184000" src="https://github.com/user-attachments/assets/f83e9c2b-ac18-4688-b7db-4e22c99bcabb" />
+A Window like this will appear. Give it about 15 minutes to Fully get done.
+
+<img width="1920" height="1008" alt="Screenshot 2026-02-20 191122" src="https://github.com/user-attachments/assets/49f99459-64ab-4b16-a6ea-df54eb2ad43c" />
 
 ---
 
