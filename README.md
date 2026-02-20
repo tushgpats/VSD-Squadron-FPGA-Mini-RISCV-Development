@@ -15,7 +15,8 @@ Go to:
 And Fork it to your Github <br></br>
 
 <br>
-<img width="1920" height="1008" alt="Screenshot 2026-02-20 184053" src="https://github.com/user-attachments/assets/f78afbfc-062d-4e3e-874d-3c9690ac0e7f" />
+<img width="479" height="332" alt="image" src="https://github.com/user-attachments/assets/8b1c63c3-c893-4756-a874-bea8eb3d95e9" />
+
 <br>
 
 ## Step 2. Create a Codespace
