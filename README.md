@@ -27,8 +27,9 @@ And Fork it to your Github <br></br>
 
 
 <img width="1920" height="1008" alt="Screenshot 2026-02-20 184000" src="https://github.com/user-attachments/assets/f83e9c2b-ac18-4688-b7db-4e22c99bcabb" />
+<br>
 A Window like this will appear. Give it about 15 minutes to Fully get done.
-
+<br>
 <img width="1920" height="1008" alt="Screenshot 2026-02-20 191122" src="https://github.com/user-attachments/assets/49f99459-64ab-4b16-a6ea-df54eb2ad43c" />
 
 ---
@@ -44,6 +45,9 @@ iverilog -V
 ````
 
 You should see version information for each tool.
+<br>
+<img width="479" height="332" alt="image" src="https://github.com/user-attachments/assets/33c7c07d-06bd-49bd-b449-96b7ed19891f" />
+<br>
 
 ---
 
