@@ -32,12 +32,20 @@ RUN wget -q https://static.dev.sifive.com/dev-tools/riscv64-unknown-elf-gcc-8.3.
 
 
 
-# 4) Spike (host build) with CLEAN_PATH
+# 4) Spike (host build) pinned to ~3 months ago (2025-11-20) with CLEAN_PATH
 WORKDIR /tmp
 RUN set -eux; \
     CLEAN_PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"; \
-    git clone --depth 1 https://github.com/riscv-software-src/riscv-isa-sim.git; \
-    cd riscv-isa-sim; git submodule update --init --recursive; \
+    TARGET_DATE="2025-11-20T00:00:00Z"; \
+    \
+    git clone https://github.com/riscv-software-src/riscv-isa-sim.git; \
+    cd riscv-isa-sim; \
+    git fetch --tags --force; \
+    COMMIT="$(git rev-list -n 1 --before="$TARGET_DATE" origin/master)"; \
+    echo "Pinning Spike to commit: $COMMIT (before $TARGET_DATE)"; \
+    git checkout "$COMMIT"; \
+    git submodule update --init --recursive; \
+    \
     mkdir -p build && cd build; \
     PATH="$CLEAN_PATH" ../configure --prefix=/opt/riscv \
       || { echo '--- spike config.log ---'; cat config.log || true; exit 1; }; \
