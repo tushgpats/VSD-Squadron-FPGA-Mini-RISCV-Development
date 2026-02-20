@@ -125,7 +125,7 @@ The following steps show how to use a full Linux desktop inside your Codespace a
 1. Right-click anywhere on the desktop background.
 2. Select **Open Terminal Here**.
 
-   ![Open terminal here](images/4.png)
+
 
 A terminal window will open on the desktop.
 
@@ -143,7 +143,6 @@ ls -ltr
 
 You should see files like `sum1ton.c`, `1ton_custom.c`, `load.S`, and `Makefile`.
 
-![Samples folder listing](images/5.png)
 
 ---
 
@@ -162,7 +161,9 @@ Expected output:
 Sum from 1 to 9 is 45
 ```
 
-![Native GCC run](images/6.png)
+<img width="960" height="504" alt="Screenshot 2026-02-20 221508" src="https://github.com/user-attachments/assets/49920ae8-4e23-4a25-a9ea-deedcad28426" />
+<br>
+<img width="960" height="504" alt="Screenshot 2026-02-20 221851" src="https://github.com/user-attachments/assets/b3cff012-f43f-4f23-aa1e-87c442f603c3" />
 
 ---
 
@@ -177,7 +178,7 @@ spike pk sum1ton.o
 
 You will see the proxy kernel (`pk`) messages and then the program output.
 
-![Spike run](images/7.png)
+
 
 ---
 
@@ -190,25 +191,14 @@ gedit sum1ton.c &
 ```
 
 This opens `sum1ton.c` in **gedit** on the noVNC desktop.
+<img width="960" height="504" alt="Screenshot 2026-02-20 221936" src="https://github.com/user-attachments/assets/d87059b6-bf1e-4629-987d-a55e2cb3f0d6" />
+<img width="960" height="504" alt="Screenshot 2026-02-20 222042" src="https://github.com/user-attachments/assets/ecbb7cdf-42f5-4bc9-b5b8-5860f1c3d1b9" />
 
-![gedit editing](images/8.png)
 
-Make changes (for example, change `n = 9;` to another value), save the file, and re-run:
 
-```bash
-riscv64-unknown-elf-gcc -o sum1ton.o sum1ton.c
-spike pk sum1ton.o
-```
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/1d260ce3-e357-45a3-8deb-f80cfe46ac26" />
 
 ---
 
-You have now:
-
-* Launched a full Linux desktop inside GitHub Codespaces
-* Compiled and executed a C program with native GCC
-* Compiled and executed the same program on a RISC-V target using Spike
-* Edited and rebuilt the code using a GUI editor over noVNC
-
-You’re ready to explore more RISC-V and Verilog labs in this Codespace.
 
 
